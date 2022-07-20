@@ -1,0 +1,32 @@
+.Footer {
+  text-align: center;
+  background: #222;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(75, 74, 74);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 48px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+.active {
+  background-color: #00CDD7;
+}
